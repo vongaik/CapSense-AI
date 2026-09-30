@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capsense AI</title>
+    <style>
+      /* Override bootstrap container width constraints */
+      body, html {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+      }
+      
+      #root {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+      
+      .container, 
+      .container-fluid, 
+      .container-lg, 
+      .container-md, 
+      .container-sm, 
+      .container-xl, 
+      .container-xxl {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .row {
+        width: 100% !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

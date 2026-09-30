@@ -1,0 +1,35 @@
+Flask==2.2.3
+pyodbc
+openai
+pandas
+cffi
+click
+colorama
+cryptography
+distlib
+filelock
+itsdangerous
+Jinja2
+MarkupSafe
+packaging
+platformdirs
+pycparser
+pycryptodome
+PyMySQL
+virtualenv
+Werkzeug
+# build
+setuptools
+gunicorn
+blinker
+numpy
+scikit-learn
+transformers
+torch
+packinging
+azure-ai-inference
+flask-cors
+# or "tensorflow" if you'd rather use TF as a backend for transformers
+# Include any other libraries from your zipped code or training scripts
+# after this line requirements on backend 
+joblib
