@@ -126,8 +126,8 @@ npm run dev
 
 
 ## Testing & User Documentation
-- ![User Documentation](CapSense%User&Documentation.docx) – Instructions for using the application.
-- ![Testing Report](Comprehensive&Testing&Report.docs) – Detailed testing procedures, test cases, and results.
+- ![User Documentation](<CapSense User Documentation.docx>) – Instructions for using the application.
+- ![Testing Report](<Comprehensive Testing Report.docx>) – Detailed testing procedures, test cases, and results.
 
 ---
 
