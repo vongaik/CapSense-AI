@@ -1,6 +1,6 @@
 # CapSense AI – Sentiment Analysis and Response Generation Application
 
-**Developed for Capgemini** – As a team of developers, testers, and technical writers we developed CapSense AI in response to a customer-service problem and use case provided by Capgemini, the industry sponsor for our capstone project. The system was developed to reduce hours of daily manual analysis of customer feedback and providing timely responses empathetically of from various channels which is time-consuming and prone to human error.
+**Developed for Capgemini** – As a team of developers, testers, and technical writers we developed CapSense AI in response to a customer-service problem and use case provided by Capgemini, the industry sponsor for our capstone project. Manual analysis of customer feedback and crafting personalized replies is a slow process prone to human error. Our system addresses this by leveraging AI to generate timely, empathetic responses, reducing daily operational hours.
 **Impact:** Generated editable AI-powered responses with the potential to reduce customer support teams’ manual workload by approximately 80%.
 See our original group repo here: https://github.com/CapSense/Capgemini_SentimentApp_Remake.
 
@@ -34,14 +34,14 @@ As the above video demonstrates, CapSense AI uses a React and TypeScript fronten
   - State management, API integration with Axios, and conditional rendering to handle asynchronous backend responses.
 
 - **Phi Model Integration**  
-  - Initially integrated **Phi-3 Mini** model via Azure AI Studio for context-aware, empathetic response generation.  
+  - Initially integrated **Phi-3 Mini** model via Azure AI Foundry for context-aware, empathetic response generation.  
   - Updated payload format from OpenAI-style requests to Phi-compatible requests.  
   - Later upgraded to **Phi-4**, ensuring seamless response generation and fallback mechanisms.
 
 - **Emotion Detection Model**  
   - Built and trained a **Naïve Bayes classifier** from scratch using 42,000+ customer feedback entries.  
-  - Achieved **55.81% accuracy** across six primary emotions (anger, joy, anticipation, neutral, disgust, sadness).  
-  - Integrated the model into the Flask backend for real-time emotion classification.
+  - Achieved **55.81% accuracy** across six primary emotions (anger, joy, fear, disgust, sadness).  
+  - Integrated the model into the Flask backend for emotion classification.
 
 - **Backend Integration & Deployment Support**  
   - Configured Flask APIs for batch and single-feedback processing.  
@@ -54,9 +54,9 @@ As the above video demonstrates, CapSense AI uses a React and TypeScript fronten
 
 - **Frontend:** React, Vite, TypeScript, Bootstrap, Chart.js, Axios
 - **Backend:** Python, Flask, Naïve Bayes (scikit-learn), NLTK, Hugging Face Transformers
-- **AI Models:** OpenAI's GPT, Phi-3 Mini, Phi-4 (Azure AI Studio via API),
+- **AI Models:** OpenAI's GPT, Phi-3 Mini, Phi-4 (Azure AI Foundry via API)
 - **Database:** Azure SQL, pyodbc
-- **Deployment & Infrastructure:** Microsoft Azure App Service, Azure VM, Azure AI Studio
+- **Deployment & Infrastructure:** Microsoft Azure App Service, Azure VM, Azure AI Foundry
 - **Other Tools:** GitHub, GitHub Actions (CI/CD), Putty, WinSCP
 
 ---
@@ -96,8 +96,8 @@ npm install
 
 4. **Set environment variables**
 ```bash
-PHI3_KEY=<your-phi3-key>
-PHI3_ENDPOINT=<your-phi3-endpoint>
+PHI4_KEY=<your-phi4-key>
+PHI4_ENDPOINT=<your-phi4-endpoint>
 ```
 
 5. **Run Backend**
@@ -117,27 +117,19 @@ npm run dev
 ## Key Achievements
 
 - Developed a complete **full-stack AI application** handling both frontend and backend integration.  
-- Built a **custom Naïve Bayes emotion classifier** from scratch, achieving strong interpretability without relying on heavy transformers.  
+- Built a **custom Naïve Bayes emotion classifier** from scratch, achieving an effective result without relying on heavy transformers.  
 - Integrated **Phi-3 and Phi-4 models** for dynamic, context-aware response generation.  
 - Successfully deployed the system on **Azure Virtual Machines**, demonstrating cloud deployment and environment management skills.  
 - Collaborated effectively with a team while resolving deployment and integration challenges.
 
 ---
 
-## References
-
-- Capgemini – Enterprise-grade sentiment analysis needs and branding requirements  
-- Azure AI Studio Documentation – Phi Models  
-- Scikit-learn & NLTK – Machine learning and natural language processing  
-- React & Vite – Frontend development framework and bundler
-
----
 
 ## Testing & User Documentation
-- [User Documentation](CapSense User Documentation.docx) – Instructions for using the application.
-- [Testing Report](Comprehensive Testing Report.docs) – Detailed testing procedures, test cases, and results.
+- ![User Documentation](CapSense%User&Documentation.docx) – Instructions for using the application.
+- ![Testing Report](Comprehensive&Testing&Report.docs) – Detailed testing procedures, test cases, and results.
 
 ---
 
-**CapSense AI** reflects my hands-on experience in **full-stack development, machine learning, NLP, AI model integration, and cloud deployment**, that gave me exposure to professional work and real technical experience.
+**CapSense AI** reflects my hands-on experience in **full-stack development, machine learning, NLP, AI model integration, and cloud deployment**, while giving me practical experience working on a real-world industry-sponsored project.
 
